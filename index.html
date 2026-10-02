@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Vimal Ramnarain | .NET Developer</title>
+  <meta name="description" content="Simple Portfolio, a .NET and C# developer.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700&family=Instrument+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <header class="navbar">
+    <nav class="navbar__inner" aria-label="Primary">
+      <a class="navbar__brand" href="#home">Vimal Ramnarain</a>
+      <ul class="navbar__links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#about">About</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- Hero -->
+    <section id="home" class="section hero">
+      <div class="hero__card">
+        <div class="hero__image">
+          <!-- Replace with your own photo, e.g. src="images/me.jpg" -->
+          <img src="images/IMG_0160.jpeg" alt="Hero Image">
+        </div>
+        <div class="hero__text">
+          <h1>Hi, I'm Vimal Ramnarain.</h1>
+          <p class="hero__role">.NET developer building web APIs and single page apps with C#.</p>
+          <p>I like clean architecture, readable code, and shipping things that work (most of the time).</p>
+          <a class="button" href="#about">Get in touch</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Experience + Projects + Tech Stack -->
+    <section id="experience" class="section">
+      <h2>Experience</h2>
+
+      <ol class="timeline">
+        <li class="timeline__item">
+          <div class="timeline__meta">2026 – Present</div>
+          <h3>.NET Developer Associate</h3>
+          <p class="timeline__org">Revature</p>
+          <ul>
+            <li>Developed a banking management application using C# and .NET, implementing customer and administrator workflows for account and transaction management.</li>
+            <li>Designed and implemented the application’s data layer using Entity Framework Core and SQL Server, including entity relationships, Fluent API configuration, TPH inheritance, and database migrations.</li>
+            <li>Applied object-oriented programming, repository patterns, and separation of concerns to create a maintainable and scalable application architecture.</li>
+            <li>Designed relational data models and resolved EF Core relationship, migration, and database integrity issues during development and testing.</li>
+            <li>Built and maintained REST APIs with ASP.NET Core Web API.</li>
+          </ul>
+        </li>
+        <li class="timeline__item">
+          <div class="timeline__meta">2023 – 2024</div>
+          <h3>Disability Analyst II</h3>
+          <p class="timeline__org">NYS Office of Temporary and Disability Assistance</p>
+          <ul>
+            <li>Evaluated complex disability claims using data-driven analysis and detailed case assessment.</li>
+            <li>Interpreted complex regulatory and medical documentation to support decision outcomes.</li>
+            <li>Communicated findings clearly in written reports and case documentation.</li>
+            <li>Identified patterns across case data to improve review efficiency.</li>
+            <li>Collaborated with cross-functional teams to maintain compliance standards. </li>
+            <li>Developed Excel-based tracking tools and OneNote templates that optimized case review efficiency and documentation. </li>
+          </ul>
+        </li>
+      </ol>
+
+      <h3 class="subheading">Projects</h3>
+      <ol class="timeline">
+        <li class="timeline__item">
+          <h3 class="timeline__org">Console Banking Application</h3>
+          <p>A banking management system application using C# and .NET that simulates core retail banking operations for customers and administrators. The application supports customer authentication and account management, deposits, withdrawals, transfers, transaction history, cheque-book requests, and administrative account management and reporting. The application's design uses object-oriented principles and a layered architecture, with Entity Framework Core providing database access and persistence through a SQL Server relational database.</p>
+        </li>
+        <li class="timeline__item">
+          <h3 class="timeline__org">Custom CPU Instruction Set Simulator</h3>
+          <p>Collaborated on designing and developing a C++ simulator for a custom CPU instruction set to visualize and debug instruction execution at the hardware abstraction level. Built program counter (PC) management and instruction tracking utilities to enhance debugging accuracy and control flow analysis.</p>
+        </li>
+        <li class="timeline__item">
+          <h3 class="timeline__org">Face Authentication System for Secure Payments</h3>
+          <p>Engineered a face authentication system for POS transactions using ArcFace embeddings, One-Class SVM, and a neural network ensemble to improve spoof resistance. Developed a comprehensive data-augmentation pipeline (blur, occlusion, noise, lighting, spoof simulation) that enhanced real-world robustness, achieving 97.7% average accuracy and 0% average false rejection rate (FRR).</p>
+        </li>
+      </ol>
+
+      <h3 class="subheading">Tech stack</h3>
+      <div class="stack">
+        <div class="stack__group">
+          <h4>Core</h4>
+          <ul class="chips">
+            <li>Python</li>
+            <li>Java</li>
+            <li>C#</li>
+            <li>.NET 10</li>
+            <li>ASP.NET Core Web API</li>
+            <li>Entity Framework Core</li>
+            <li>LINQ</li>
+          </ul>
+        </div>
+        <div class="stack__group">
+          <h4>Data and Testing</h4>
+          <ul class="chips">
+            <li>SQL Server</li>
+            <li>Dapper</li>
+            <li>xUnit</li>
+            <li>Moq</li>
+          </ul>
+        </div>
+        <div class="stack__group">
+          <h4>Front End and Tools</h4>
+          <ul class="chips">
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>Git</li>
+            <li>Azure DevOps</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Education -->
+    <section id="education" class="section">
+      <h2>Education</h2>
+
+      <ol class="timeline">
+        <li class="timeline__item">
+          <div class="timeline__meta">2023 – 2025</div>
+          <h3>Master's in Computer Science</h3>
+          <p class="timeline__org">Syracuse University</p>
+          <p>Programming & Data Structures, Design & Analysis of Algorithms, Object-Oriented Design, Computer Security, Advanced Computer Architecture, Principles of Operating Systems, Biometrics, Assured Programming & Formal Methods, Cryptography, Machine Learning for Security, Software Engineering.</p>
+        </li>
+        <li class="timeline__item">
+          <div class="timeline__meta">2015 - 2019</div>
+          <h3>Bachelor's In Biology</h3>
+          <p class="timeline__org">CUNY York College</p>
+        </li>
+      </ol>
+    </section>
+
+    <!-- About + Links -->
+    <section id="about" class="section">
+      <h2>About me</h2>
+
+      <div class="cards">
+        <article class="card">
+          <h3>Who I Am</h3>
+          <p>I'm a Full Stack Developer who enjoys bringing my ideas to life in simple, well-tested software. Right now I'm learning to build single page apps on top of .NET Web APIs.</p>
+        </article>
+
+        <article class="card">
+          <h3>Outside of Code</h3>
+          <p>I dabble in sports, specifically Tennis and Table Tennis. I tinker with and mod keyboards and other electronics. I'm also a foodie and a gamer.</p>
+        </article>
+
+        <article class="card">
+          <h3>Find Me Here</h3>
+          <ul class="links">
+            <li><a href="https://github.com/organizedanvrchy" target="_blank" rel="noopener">GitHub</a></li>
+            <li><a href="https://www.linkedin.com/in/vimal-ramnarain/" target="_blank" rel="noopener">LinkedIn</a></li>
+            <li><a href="mailto:vimalramnarain@gmail.com">Email</a></li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <p>&copy; 2026 Vimal Ramnarain</p>
+  </footer>
+
+</body>
+</html>
